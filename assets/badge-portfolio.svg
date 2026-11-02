@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 36" width="150" height="36">
+  <defs>
+    <linearGradient id="g-badge" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#19394D" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#102638" stop-opacity="0.95"/>
+    </linearGradient>
+  </defs>
+  <rect x="0.5" y="0.5" width="149" height="35" rx="8" fill="url(#g-badge)" stroke="#52788C" stroke-width="1"/>
+  <path d="M 12 1.5 L 138 1.5" stroke="#83DDF7" stroke-width="1" stroke-opacity="0.4" stroke-linecap="round"/>
+  <!-- Globe / Web Icon -->
+  <g transform="translate(16, 10)">
+    <circle cx="8" cy="8" r="7.5" fill="none" stroke="#55C8F5" stroke-width="1.3"/>
+    <ellipse cx="8" cy="8" rx="3.5" ry="7.5" fill="none" stroke="#55C8F5" stroke-width="1.1"/>
+    <line x1="0.5" y1="8" x2="15.5" y2="8" stroke="#55C8F5" stroke-width="1.1"/>
+  </g>
+  <text x="42" y="22" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" font-weight="600" fill="#F2F7FA">Portfolio</text>
+</svg>

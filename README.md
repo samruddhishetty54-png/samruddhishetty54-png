@@ -3,6 +3,10 @@
 <!-- COMPACT FROSTED GLASS HERO HEADER WITH INTEGRATED AVATAR -->
 <img src="assets/header.svg" alt="Samruddhi Shetty — Aspiring AI &amp; Machine Learning Engineer" width="100%" />
 
+<p align="center">
+  🌐 <b>Interactive Portfolio:</b> <a href="https://my-portfolio-ten-psi-fc6w0qq2yq.vercel.app/"><b>Samrudhi &mdash; The Series</b></a>
+</p>
+
 </div>
 
 ## About Me
@@ -119,6 +123,10 @@ Driven by a problem-solving mindset, I am exploring Generative AI and intelligen
 
 <div align="center">
 
+<a href="https://my-portfolio-ten-psi-fc6w0qq2yq.vercel.app/">
+  <img src="assets/badge-portfolio.svg" alt="Portfolio" height="36" />
+</a>
+&nbsp;
 <a href="https://www.linkedin.com/in/samrudhi-shetty-045025379">
   <img src="assets/badge-linkedin.svg" alt="LinkedIn" height="36" />
 </a>
