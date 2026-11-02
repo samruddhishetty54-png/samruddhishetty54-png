@@ -1,22 +1,29 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 200" width="100%" height="100%">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 150" width="100%" height="100%">
   <defs>
-    <!-- Background Gradient -->
-    <linearGradient id="header-bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0B1220"/>
-      <stop offset="50%" stop-color="#0F172A"/>
-      <stop offset="100%" stop-color="#111827"/>
+    <!-- Frosted Glass Gradient -->
+    <linearGradient id="glass-card" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#19394D" stop-opacity="0.85"/>
+      <stop offset="50%" stop-color="#102638" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#071522" stop-opacity="0.9"/>
     </linearGradient>
 
-    <!-- Subtle Accent Line -->
-    <linearGradient id="blue-accent" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#3B82F6" stop-opacity="0.8"/>
-      <stop offset="60%" stop-color="#2563EB" stop-opacity="0.3"/>
-      <stop offset="100%" stop-color="#1D4ED8" stop-opacity="0"/>
+    <!-- Translucent Specular Border -->
+    <linearGradient id="glass-border" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#83DDF7" stop-opacity="0.8"/>
+      <stop offset="35%" stop-color="#55C8F5" stop-opacity="0.5"/>
+      <stop offset="70%" stop-color="#52788C" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#83DDF7" stop-opacity="0.6"/>
     </linearGradient>
+
+    <!-- Subtle Cyan Light Shimmer -->
+    <radialGradient id="light-accent" cx="90%" cy="20%" r="50%">
+      <stop offset="0%" stop-color="#55C8F5" stop-opacity="0.2"/>
+      <stop offset="60%" stop-color="#102638" stop-opacity="0"/>
+    </radialGradient>
 
     <style>
       .f-sans {
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Inter', Helvetica, Arial, sans-serif;
       }
       .f-mono {
         font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
@@ -24,53 +31,50 @@
     </style>
   </defs>
 
-  <!-- Background Base -->
-  <rect width="960" height="200" rx="12" fill="url(#header-bg)"/>
-  <rect width="960" height="200" rx="12" fill="none" stroke="#1E293B" stroke-width="1.2"/>
+  <!-- Base Frosted Panel -->
+  <rect x="2" y="2" width="956" height="146" rx="14" fill="url(#glass-card)" stroke="url(#glass-border)" stroke-width="1.2"/>
+  <rect x="2" y="2" width="956" height="146" rx="14" fill="url(#light-accent)"/>
 
-  <!-- Top Accent Bar -->
-  <rect x="0" y="0" width="960" height="3" rx="1.5" fill="url(#blue-accent)"/>
+  <!-- Top Glass Highlight Line -->
+  <path d="M 16 3 L 944 3" stroke="#83DDF7" stroke-width="1.5" stroke-opacity="0.45" stroke-linecap="round"/>
 
-  <!-- Content Group -->
-  <g transform="translate(48, 44)">
-    <!-- Role Pill -->
+  <!-- Left Content -->
+  <g transform="translate(42, 34)">
+    <!-- Status Pill -->
     <g transform="translate(0, 0)">
-      <rect width="254" height="24" rx="12" fill="#1E293B" stroke="#334155" stroke-width="0.8"/>
-      <circle cx="12" cy="12" r="3.5" fill="#3B82F6"/>
-      <text x="24" y="16" class="f-mono" font-size="10.5" font-weight="600" fill="#93C5FD" letter-spacing="0.5px">
+      <rect width="250" height="22" rx="11" fill="#102638" stroke="#52788C" stroke-width="0.8"/>
+      <circle cx="11" cy="11" r="3.5" fill="#55C8F5"/>
+      <circle cx="11" cy="11" r="1.8" fill="#F2F7FA"/>
+      <text x="22" y="15" class="f-mono" font-size="9.5" font-weight="600" fill="#83DDF7" letter-spacing="0.6px">
         ASPIRING AI &amp; ML ENGINEER
       </text>
     </g>
 
     <!-- Name -->
-    <text x="0" y="58" class="f-sans" font-size="34" font-weight="700" fill="#F8FAFC" letter-spacing="-0.4px">
+    <text x="0" y="52" class="f-sans" font-size="30" font-weight="700" fill="#F2F7FA" letter-spacing="-0.3px">
       Samruddhi Shetty
     </text>
 
-    <!-- Education & College -->
-    <text x="0" y="86" class="f-sans" font-size="15" font-weight="500" fill="#94A3B8">
-      B.Tech in Artificial Intelligence and Machine Learning
+    <!-- Education & Institution -->
+    <text x="0" y="76" class="f-sans" font-size="14" font-weight="500" fill="#83DDF7">
+      Third-Year B.Tech in Artificial Intelligence &amp; Machine Learning
     </text>
-    <text x="0" y="108" class="f-sans" font-size="13.5" fill="#64748B">
-      Sahyadri College of Engineering and Management &#8226; Mangalore, India
+    <text x="0" y="96" class="f-sans" font-size="12.5" fill="#A8BBC9">
+      Sahyadri College of Engineering and Management &#8226; Mangalore, Karnataka
     </text>
   </g>
 
-  <!-- Clean Technical Geometric Element (Right Side) -->
-  <g transform="translate(810, 100)">
-    <!-- Subtle Orbit Arcs -->
-    <circle cx="0" cy="0" r="54" fill="none" stroke="#1E293B" stroke-width="1.2"/>
-    <circle cx="0" cy="0" r="36" fill="none" stroke="#334155" stroke-width="1.2" stroke-dasharray="4 4"/>
-    <circle cx="0" cy="0" r="18" fill="#1E293B" stroke="#3B82F6" stroke-width="1.5"/>
-    <circle cx="0" cy="0" r="6" fill="#3B82F6"/>
+  <!-- Right Technical Accent -->
+  <g transform="translate(860, 75)">
+    <!-- Outer Glass Ring -->
+    <circle cx="0" cy="0" r="42" fill="none" stroke="#52788C" stroke-width="1" stroke-opacity="0.4"/>
+    <circle cx="0" cy="0" r="28" fill="#19394D" stroke="#55C8F5" stroke-width="1.2" stroke-opacity="0.7"/>
+    <circle cx="0" cy="0" r="14" fill="#102638" stroke="#83DDF7" stroke-width="1"/>
+    <circle cx="0" cy="0" r="4" fill="#55C8F5"/>
 
-    <!-- Orbital Node Points -->
-    <circle cx="36" cy="0" r="3" fill="#60A5FA"/>
-    <circle cx="-25" cy="-25" r="2.5" fill="#93C5FD"/>
-    <circle cx="-18" cy="31" r="2.5" fill="#60A5FA"/>
-
-    <!-- Connection Line -->
-    <line x1="0" y1="0" x2="36" y2="0" stroke="#3B82F6" stroke-width="1" stroke-opacity="0.5"/>
-    <line x1="0" y1="0" x2="-25" y2="-25" stroke="#3B82F6" stroke-width="1" stroke-opacity="0.5"/>
+    <!-- Orbital Nodes -->
+    <circle cx="28" cy="0" r="2.5" fill="#83DDF7"/>
+    <circle cx="-20" cy="-20" r="2" fill="#55C8F5"/>
+    <circle cx="-14" cy="24" r="2" fill="#83DDF7"/>
   </g>
 </svg>
