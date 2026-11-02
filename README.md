@@ -1,40 +1,23 @@
 <div align="center">
 
-<!-- FROSTED GLASS AVATAR PRESENTATION -->
-<a href="https://github.com/samruddhishetty54-png">
-  <img src="assets/avatar-circle.png" width="118" height="118" alt="Samruddhi Shetty" />
-</a>
-
-<br/><br/>
-
-<!-- FROSTED BLUE GLASS HEADER -->
+<!-- COMPACT FROSTED GLASS HERO HEADER WITH INTEGRATED AVATAR -->
 <img src="assets/header.svg" alt="Samruddhi Shetty — Aspiring AI &amp; Machine Learning Engineer" width="100%" />
-
-<br/>
-
-<img src="assets/divider.svg" alt="divider" width="100%" />
 
 </div>
 
 ## About Me
 
-I am a third-year Artificial Intelligence and Machine Learning engineering student at Sahyadri College of Engineering and Management, Mangalore.
+I am focused on artificial intelligence, machine learning, and modern software development. I enjoy building practical, functional software applications and continuously strengthening my core programming skills in Python, Java, and SQL.
 
-I am deeply interested in artificial intelligence, machine learning, and modern software development. I am currently strengthening my programming foundations in Python, Java, and SQL, while exploring Generative AI and intelligent systems. I enjoy building practical, functional software projects and applying emerging technologies to solve real-world problems.
-
-<div align="center">
-  <img src="assets/divider.svg" alt="divider" width="100%" />
-</div>
+Driven by a problem-solving mindset, I am exploring Generative AI and intelligent systems, with an emphasis on creating reliable software architectures that address real-world challenges.
 
 ## Achievements
 
-- 🏆 **Smart India Hackathon (SIH)**: Our team was selected for the Second Round of Smart India Hackathon with **Bhasha Setu**, a multilingual communication and linguistic inclusivity bridge.
-- 🌲 **Socio Spark Hackathon**: Developed the **Sandalwood Tree Protection System**, an IoT-based anti-poaching prototype utilizing vibration sensors for real-time forest monitoring and illegal logging alerts.
-- 📐 **National Math Society**: Awarded the **Mathematics Excellence Certificate** for analytical and quantitative problem-solving.
-
-<div align="center">
-  <img src="assets/divider.svg" alt="divider" width="100%" />
-</div>
+| Milestone | Event / Organization | Focus |
+| :--- | :--- | :--- |
+| **Second Round Selection** | **Smart India Hackathon (SIH)** | Selected with *Bhasha Setu* &mdash; a multilingual communication and linguistic inclusivity bridge |
+| **IoT Innovation** | **Socio Spark Hackathon** | Developed *Sandalwood Tree Protection System* for illegal logging detection |
+| **Mathematics Excellence** | **National Math Society** | Awarded certificate for distinction in analytical &amp; quantitative problem-solving |
 
 ## Featured Projects
 
@@ -66,7 +49,7 @@ I am deeply interested in artificial intelligence, machine learning, and modern 
   <tr>
     <td width="50%" valign="top">
       <h3>📄 <a href="https://github.com/samruddhishetty54-png/updated-resume-managment-system">Intelligent Resume Management System</a></h3>
-      <p>An AI-powered web platform designed to analyze resumes against specific job descriptions. Calculates ATS compatibility scores, identifies critical missing skills, and provides personalized recommendations.</p>
+      <p>An AI-powered web platform designed to analyze resumes against targeted job descriptions, calculate ATS compatibility scores, and pinpoint critical missing skills.</p>
       <p>
         <img src="https://img.shields.io/badge/Java-102638?style=flat&logo=openjdk&logoColor=55C8F5" alt="Java">
         <img src="https://img.shields.io/badge/MySQL-102638?style=flat&logo=mysql&logoColor=55C8F5" alt="MySQL">
@@ -89,7 +72,7 @@ I am deeply interested in artificial intelligence, machine learning, and modern 
   <tr>
     <td colspan="2" valign="top">
       <h3>⚙️ <a href="https://github.com/samruddhishetty54-png">ForgeTrack</a></h3>
-      <p>A developer milestone and workflow tracker designed to log simulation deliverables, track progressive software engineering tasks, and monitor technical skill progression across sprints.</p>
+      <p>Developer milestone and workflow tracker designed to log simulation deliverables, track progressive software engineering tasks, and monitor technical skill progression across sprints.</p>
       <p>
         <img src="https://img.shields.io/badge/Python-102638?style=flat&logo=python&logoColor=55C8F5" alt="Python">
         <img src="https://img.shields.io/badge/JavaScript-102638?style=flat&logo=javascript&logoColor=55C8F5" alt="JavaScript">
@@ -100,38 +83,15 @@ I am deeply interested in artificial intelligence, machine learning, and modern 
   </tr>
 </table>
 
-<div align="center">
-  <img src="assets/divider.svg" alt="divider" width="100%" />
-</div>
-
 ## Technical Skills
 
-| Domain | Technologies &amp; Frameworks | Status |
-| :--- | :--- | :--- |
-| **Programming Languages** | `Python` &bull; `Java` &bull; `SQL` &bull; `C` | Proficient / Applied |
-| **AI &amp; Machine Learning** | `NumPy` &bull; `Pandas` &bull; `Scikit-Learn` &bull; `Artificial Intelligence` | Proficient / Core |
-| **AI (Exploring)** | `Machine Learning Models` &bull; `Generative AI` &bull; `Explainable AI (XAI)` | Active Study / Exploring |
-| **Web Development** | `HTML5` &bull; `CSS3` &bull; `React` &bull; `Tailwind CSS` &bull; `JavaScript` | Applied in Projects |
-| **Database** | `MySQL` &bull; `JDBC Connectivity` | Applied in Projects |
-| **Developer Tools** | `Git` &bull; `GitHub` &bull; `VS Code` &bull; `IntelliJ IDEA` &bull; `Replit` &bull; `Antigravity` | Daily Workflow |
-
-<br/>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Python-102638?style=flat&logo=python&logoColor=55C8F5" alt="Python" />
-  <img src="https://img.shields.io/badge/Java-102638?style=flat&logo=openjdk&logoColor=55C8F5" alt="Java" />
-  <img src="https://img.shields.io/badge/SQL-102638?style=flat&logo=mysql&logoColor=55C8F5" alt="SQL" />
-  <img src="https://img.shields.io/badge/React-102638?style=flat&logo=react&logoColor=55C8F5" alt="React" />
-  <img src="https://img.shields.io/badge/Tailwind_CSS-102638?style=flat&logo=tailwindcss&logoColor=55C8F5" alt="Tailwind CSS" />
-  <img src="https://img.shields.io/badge/Scikit--Learn-102638?style=flat&logo=scikitlearn&logoColor=55C8F5" alt="Scikit-Learn" />
-  <img src="https://img.shields.io/badge/Git-102638?style=flat&logo=git&logoColor=55C8F5" alt="Git" />
-  <img src="https://img.shields.io/badge/GitHub-102638?style=flat&logo=github&logoColor=55C8F5" alt="GitHub" />
-  <img src="https://img.shields.io/badge/VS_Code-102638?style=flat&logo=visualstudiocode&logoColor=55C8F5" alt="VS Code" />
-</p>
-
-<div align="center">
-  <img src="assets/divider.svg" alt="divider" width="100%" />
-</div>
+| Category | Technologies |
+| :--- | :--- |
+| **Programming Languages** | ![Python](https://img.shields.io/badge/Python-102638?style=flat&logo=python&logoColor=55C8F5) ![Java](https://img.shields.io/badge/Java-102638?style=flat&logo=openjdk&logoColor=55C8F5) ![SQL](https://img.shields.io/badge/SQL-102638?style=flat&logo=mysql&logoColor=55C8F5) ![C](https://img.shields.io/badge/C-102638?style=flat&logo=c&logoColor=55C8F5) |
+| **AI &amp; Machine Learning** | ![NumPy](https://img.shields.io/badge/NumPy-102638?style=flat&logo=numpy&logoColor=55C8F5) ![Pandas](https://img.shields.io/badge/Pandas-102638?style=flat&logo=pandas&logoColor=55C8F5) ![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-102638?style=flat&logo=scikitlearn&logoColor=55C8F5) ![Machine Learning](https://img.shields.io/badge/Machine_Learning_(Learning)-071522?style=flat&logoColor=A8BBC9) ![Generative AI](https://img.shields.io/badge/Generative_AI_(Exploring)-071522?style=flat&logoColor=A8BBC9) |
+| **Web Development** | ![HTML5](https://img.shields.io/badge/HTML5-102638?style=flat&logo=html5&logoColor=55C8F5) ![CSS3](https://img.shields.io/badge/CSS3-102638?style=flat&logo=css3&logoColor=55C8F5) ![React](https://img.shields.io/badge/React-102638?style=flat&logo=react&logoColor=55C8F5) ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-102638?style=flat&logo=tailwindcss&logoColor=55C8F5) ![JavaScript](https://img.shields.io/badge/JavaScript-102638?style=flat&logo=javascript&logoColor=55C8F5) |
+| **Databases** | ![MySQL](https://img.shields.io/badge/MySQL-102638?style=flat&logo=mysql&logoColor=55C8F5) ![JDBC](https://img.shields.io/badge/JDBC-102638?style=flat&logo=oracle&logoColor=55C8F5) |
+| **Developer Tools** | ![Git](https://img.shields.io/badge/Git-102638?style=flat&logo=git&logoColor=55C8F5) ![GitHub](https://img.shields.io/badge/GitHub-102638?style=flat&logo=github&logoColor=55C8F5) ![VS Code](https://img.shields.io/badge/VS_Code-102638?style=flat&logo=visualstudiocode&logoColor=55C8F5) ![IntelliJ IDEA](https://img.shields.io/badge/IntelliJ_IDEA-102638?style=flat&logo=intellijidea&logoColor=55C8F5) ![Replit](https://img.shields.io/badge/Replit-102638?style=flat&logo=replit&logoColor=55C8F5) ![Antigravity](https://img.shields.io/badge/Antigravity-102638?style=flat&logoColor=55C8F5) |
 
 ## GitHub Contributions &amp; Activity
 
@@ -146,17 +106,13 @@ I am deeply interested in artificial intelligence, machine learning, and modern 
 
 <!-- FROSTED BLUE GLASS GITHUB STATS -->
 <a href="https://github.com/samruddhishetty54-png">
-  <img src="https://github-readme-stats.vercel.app/api?username=samruddhishetty54-png&show_icons=true&bg_color=102638&title_color=55C8F5&text_color=F2F7FA&icon_color=83DDF7&border_color=52788C&hide_border=false" alt="GitHub Stats" height="155" />
+  <img src="https://github-readme-stats.vercel.app/api?username=samruddhishetty54-png&show_icons=true&bg_color=102638&title_color=55C8F5&text_color=F2F7FA&icon_color=83DDF7&border_color=52788C&hide_border=false" alt="GitHub Stats" height="150" />
 </a>
 &nbsp;&nbsp;
 <a href="https://github.com/samruddhishetty54-png">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=samruddhishetty54-png&layout=compact&bg_color=102638&title_color=55C8F5&text_color=F2F7FA&border_color=52788C&hide_border=false" alt="Top Languages" height="155" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=samruddhishetty54-png&layout=compact&bg_color=102638&title_color=55C8F5&text_color=F2F7FA&border_color=52788C&hide_border=false" alt="Top Languages" height="150" />
 </a>
 
-</div>
-
-<div align="center">
-  <img src="assets/divider.svg" alt="divider" width="100%" />
 </div>
 
 ## Connect With Me
