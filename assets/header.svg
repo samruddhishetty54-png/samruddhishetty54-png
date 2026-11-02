@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 200" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="header-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0B1220"/>
+      <stop offset="50%" stop-color="#0F172A"/>
+      <stop offset="100%" stop-color="#111827"/>
+    </linearGradient>
+
+    <!-- Subtle Accent Line -->
+    <linearGradient id="blue-accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3B82F6" stop-opacity="0.8"/>
+      <stop offset="60%" stop-color="#2563EB" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#1D4ED8" stop-opacity="0"/>
+    </linearGradient>
+
+    <style>
+      .f-sans {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      }
+      .f-mono {
+        font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+      }
+    </style>
+  </defs>
+
+  <!-- Background Base -->
+  <rect width="960" height="200" rx="12" fill="url(#header-bg)"/>
+  <rect width="960" height="200" rx="12" fill="none" stroke="#1E293B" stroke-width="1.2"/>
+
+  <!-- Top Accent Bar -->
+  <rect x="0" y="0" width="960" height="3" rx="1.5" fill="url(#blue-accent)"/>
+
+  <!-- Content Group -->
+  <g transform="translate(48, 44)">
+    <!-- Role Pill -->
+    <g transform="translate(0, 0)">
+      <rect width="254" height="24" rx="12" fill="#1E293B" stroke="#334155" stroke-width="0.8"/>
+      <circle cx="12" cy="12" r="3.5" fill="#3B82F6"/>
+      <text x="24" y="16" class="f-mono" font-size="10.5" font-weight="600" fill="#93C5FD" letter-spacing="0.5px">
+        ASPIRING AI &amp; ML ENGINEER
+      </text>
+    </g>
+
+    <!-- Name -->
+    <text x="0" y="58" class="f-sans" font-size="34" font-weight="700" fill="#F8FAFC" letter-spacing="-0.4px">
+      Samruddhi Shetty
+    </text>
+
+    <!-- Education & College -->
+    <text x="0" y="86" class="f-sans" font-size="15" font-weight="500" fill="#94A3B8">
+      B.Tech in Artificial Intelligence and Machine Learning
+    </text>
+    <text x="0" y="108" class="f-sans" font-size="13.5" fill="#64748B">
+      Sahyadri College of Engineering and Management &#8226; Mangalore, India
+    </text>
+  </g>
+
+  <!-- Clean Technical Geometric Element (Right Side) -->
+  <g transform="translate(810, 100)">
+    <!-- Subtle Orbit Arcs -->
+    <circle cx="0" cy="0" r="54" fill="none" stroke="#1E293B" stroke-width="1.2"/>
+    <circle cx="0" cy="0" r="36" fill="none" stroke="#334155" stroke-width="1.2" stroke-dasharray="4 4"/>
+    <circle cx="0" cy="0" r="18" fill="#1E293B" stroke="#3B82F6" stroke-width="1.5"/>
+    <circle cx="0" cy="0" r="6" fill="#3B82F6"/>
+
+    <!-- Orbital Node Points -->
+    <circle cx="36" cy="0" r="3" fill="#60A5FA"/>
+    <circle cx="-25" cy="-25" r="2.5" fill="#93C5FD"/>
+    <circle cx="-18" cy="31" r="2.5" fill="#60A5FA"/>
+
+    <!-- Connection Line -->
+    <line x1="0" y1="0" x2="36" y2="0" stroke="#3B82F6" stroke-width="1" stroke-opacity="0.5"/>
+    <line x1="0" y1="0" x2="-25" y2="-25" stroke="#3B82F6" stroke-width="1" stroke-opacity="0.5"/>
+  </g>
+</svg>
