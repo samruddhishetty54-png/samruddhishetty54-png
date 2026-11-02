@@ -1,0 +1,328 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 520" width="100%" height="100%">
+  <defs>
+    <linearGradient id="sk-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090308"/>
+      <stop offset="50%" stop-color="#13040e"/>
+      <stop offset="100%" stop-color="#080206"/>
+    </linearGradient>
+
+    <linearGradient id="card-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#240714" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#11030a" stop-opacity="0.95"/>
+    </linearGradient>
+
+    <linearGradient id="pill-confident" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#831843" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#be185d" stop-opacity="0.8"/>
+    </linearGradient>
+
+    <linearGradient id="pill-learning" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#581c87" stop-opacity="0.75"/>
+      <stop offset="100%" stop-color="#7e22ce" stop-opacity="0.75"/>
+    </linearGradient>
+
+    <radialGradient id="card-glow" cx="0%" cy="0%" r="70%">
+      <stop offset="0%" stop-color="#f43f5e" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#f43f5e" stop-opacity="0"/>
+    </radialGradient>
+
+    <pattern id="card-grid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="0.75" fill="#f472b6" fill-opacity="0.08"/>
+    </pattern>
+
+    <filter id="badge-glow">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+
+    <style>
+      .card-title {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+        font-weight: 700;
+        font-size: 16px;
+        fill: #fff7f8;
+        letter-spacing: 0.5px;
+      }
+      .badge-label {
+        font-family: 'SF Mono', Consolas, Menlo, monospace;
+        font-size: 10px;
+        font-weight: 700;
+        letter-spacing: 1px;
+      }
+      .chip-name {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+        font-size: 13px;
+        font-weight: 600;
+        fill: #fdf2f4;
+      }
+      .chip-desc {
+        font-family: 'SF Mono', Consolas, Menlo, monospace;
+        font-size: 10px;
+        fill: #d4a5b8;
+      }
+      .chip-icon {
+        font-family: 'SF Mono', Consolas, monospace;
+        font-size: 11px;
+        font-weight: 700;
+        fill: #fb7185;
+      }
+    </style>
+  </defs>
+
+  <!-- Background Canvas -->
+  <rect width="1200" height="520" rx="16" fill="url(#sk-bg)"/>
+  <rect width="1200" height="520" rx="16" fill="none" stroke="#4a081e" stroke-width="1.2"/>
+
+  <!-- ==================== CARD 1: PROGRAMMING (CONFIDENT) ==================== -->
+  <g transform="translate(30, 24)">
+    <!-- Box Base -->
+    <rect width="555" height="225" rx="14" fill="url(#card-grad)"/>
+    <rect width="555" height="225" rx="14" fill="url(#card-grid)"/>
+    <rect width="555" height="225" rx="14" fill="url(#card-glow)"/>
+    <rect width="555" height="225" rx="14" fill="none" stroke="#831843" stroke-width="1.2" stroke-opacity="0.6"/>
+
+    <!-- Header Section -->
+    <circle cx="28" cy="30" r="12" fill="#3b0918" stroke="#fb7185" stroke-width="1"/>
+    <text x="28" y="34" class="chip-icon" text-anchor="middle">&lt;&gt;</text>
+    <text x="50" y="35" class="card-title">PROGRAMMING LANGUAGES</text>
+
+    <!-- Badge: Confident -->
+    <rect x="380" y="19" width="150" height="22" rx="11" fill="url(#pill-confident)"/>
+    <circle cx="392" cy="30" r="3" fill="#ffffff"/>
+    <text x="402" y="34" class="badge-label" fill="#ffffff">CONFIDENT &amp; CORE</text>
+
+    <!-- Skills List Grid -->
+    <!-- Python -->
+    <g transform="translate(20, 64)">
+      <rect width="248" height="64" rx="10" fill="#1b0610" stroke="#5c0c26" stroke-width="1"/>
+      <circle cx="24" cy="32" r="14" fill="#310a19"/>
+      <text x="24" y="36" class="chip-icon" text-anchor="middle">Py</text>
+      <text x="48" y="27" class="chip-name">Python</text>
+      <text x="48" y="44" class="chip-desc">Core &#8226; AI/ML &#8226; Analytics</text>
+      <rect x="180" y="20" width="56" height="18" rx="9" fill="#3e0a1d"/>
+      <text x="208" y="32" class="badge-label" fill="#fda4af" font-size="9" text-anchor="middle">PRIMARY</text>
+    </g>
+
+    <!-- Java -->
+    <g transform="translate(286, 64)">
+      <rect width="248" height="64" rx="10" fill="#1b0610" stroke="#5c0c26" stroke-width="1"/>
+      <circle cx="24" cy="32" r="14" fill="#310a19"/>
+      <text x="24" y="36" class="chip-icon" text-anchor="middle">Jv</text>
+      <text x="48" y="27" class="chip-name">Java</text>
+      <text x="48" y="44" class="chip-desc">OOP &#8226; Swing GUI &#8226; JDBC</text>
+      <rect x="180" y="20" width="56" height="18" rx="9" fill="#3e0a1d"/>
+      <text x="208" y="32" class="badge-label" fill="#fda4af" font-size="9" text-anchor="middle">APPLIED</text>
+    </g>
+
+    <!-- SQL -->
+    <g transform="translate(20, 142)">
+      <rect width="248" height="64" rx="10" fill="#1b0610" stroke="#5c0c26" stroke-width="1"/>
+      <circle cx="24" cy="32" r="14" fill="#310a19"/>
+      <text x="24" y="36" class="chip-icon" text-anchor="middle">Sq</text>
+      <text x="48" y="27" class="chip-name">SQL</text>
+      <text x="48" y="44" class="chip-desc">Queries &#8226; Joins &#8226; Schema</text>
+      <rect x="180" y="20" width="56" height="18" rx="9" fill="#3e0a1d"/>
+      <text x="208" y="32" class="badge-label" fill="#fda4af" font-size="9" text-anchor="middle">CORE</text>
+    </g>
+
+    <!-- C -->
+    <g transform="translate(286, 142)">
+      <rect width="248" height="64" rx="10" fill="#1b0610" stroke="#5c0c26" stroke-width="1"/>
+      <circle cx="24" cy="32" r="14" fill="#310a19"/>
+      <text x="24" y="36" class="chip-icon" text-anchor="middle">C</text>
+      <text x="48" y="27" class="chip-name">C Language</text>
+      <text x="48" y="44" class="chip-desc">Memory &#8226; Fundamentals</text>
+      <rect x="180" y="20" width="56" height="18" rx="9" fill="#3e0a1d"/>
+      <text x="208" y="32" class="badge-label" fill="#fda4af" font-size="9" text-anchor="middle">ACADEMIC</text>
+    </g>
+  </g>
+
+  <!-- ==================== CARD 2: AI & MACHINE LEARNING (LEARNING/EXPLORING) ==================== -->
+  <g transform="translate(615, 24)">
+    <!-- Box Base -->
+    <rect width="555" height="225" rx="14" fill="url(#card-grad)"/>
+    <rect width="555" height="225" rx="14" fill="url(#card-grid)"/>
+    <rect width="555" height="225" rx="14" fill="none" stroke="#7e22ce" stroke-width="1.2" stroke-opacity="0.5"/>
+
+    <!-- Header Section -->
+    <circle cx="28" cy="30" r="12" fill="#2e1065" stroke="#c084fc" stroke-width="1"/>
+    <text x="28" y="34" class="chip-icon" fill="#c084fc" text-anchor="middle">AI</text>
+    <text x="50" y="35" class="card-title">AI &amp; MACHINE LEARNING</text>
+
+    <!-- Badge: Learning & Exploring -->
+    <rect x="365" y="19" width="168" height="22" rx="11" fill="url(#pill-learning)"/>
+    <circle cx="377" cy="30" r="3" fill="#e9d5ff"/>
+    <text x="387" y="34" class="badge-label" fill="#ffffff">LEARNING &amp; EXPLORING</text>
+
+    <!-- Skills List Grid -->
+    <!-- Artificial Intelligence -->
+    <g transform="translate(20, 64)">
+      <rect width="248" height="64" rx="10" fill="#150a1d" stroke="#4c1d95" stroke-width="1"/>
+      <circle cx="24" cy="32" r="14" fill="#2e1065"/>
+      <text x="24" y="36" class="chip-icon" fill="#c084fc" text-anchor="middle">Ai</text>
+      <text x="48" y="27" class="chip-name">Artificial Intelligence</text>
+      <text x="48" y="44" class="chip-desc">Core Concepts &#8226; B.Tech</text>
+      <rect x="175" y="20" width="62" height="18" rx="9" fill="#3b0764"/>
+      <text x="206" y="32" class="badge-label" fill="#e9d5ff" font-size="9" text-anchor="middle">DEGREE</text>
+    </g>
+
+    <!-- Machine Learning -->
+    <g transform="translate(286, 64)">
+      <rect width="248" height="64" rx="10" fill="#150a1d" stroke="#4c1d95" stroke-width="1"/>
+      <circle cx="24" cy="32" r="14" fill="#2e1065"/>
+      <text x="24" y="36" class="chip-icon" fill="#c084fc" text-anchor="middle">Ml</text>
+      <text x="48" y="27" class="chip-name">Machine Learning</text>
+      <text x="48" y="44" class="chip-desc">Models &#8226; Algorithms &#8226; XAI</text>
+      <rect x="175" y="20" width="62" height="18" rx="9" fill="#3b0764"/>
+      <text x="206" y="32" class="badge-label" fill="#e9d5ff" font-size="9" text-anchor="middle">STUDYING</text>
+    </g>
+
+    <!-- Generative AI -->
+    <g transform="translate(20, 142)">
+      <rect width="248" height="64" rx="10" fill="#150a1d" stroke="#4c1d95" stroke-width="1"/>
+      <circle cx="24" cy="32" r="14" fill="#2e1065"/>
+      <text x="24" y="36" class="chip-icon" fill="#c084fc" text-anchor="middle">Ga</text>
+      <text x="48" y="27" class="chip-name">Generative AI</text>
+      <text x="48" y="44" class="chip-desc">LLMs &#8226; Prompting &#8226; Apps</text>
+      <rect x="175" y="20" width="62" height="18" rx="9" fill="#3b0764"/>
+      <text x="206" y="32" class="badge-label" fill="#e9d5ff" font-size="9" text-anchor="middle">EXPLORING</text>
+    </g>
+
+    <!-- Scikit-Learn & Data -->
+    <g transform="translate(286, 142)">
+      <rect width="248" height="64" rx="10" fill="#150a1d" stroke="#4c1d95" stroke-width="1"/>
+      <circle cx="24" cy="32" r="14" fill="#2e1065"/>
+      <text x="24" y="36" class="chip-icon" fill="#c084fc" text-anchor="middle">Da</text>
+      <text x="48" y="27" class="chip-name">NumPy &amp; Pandas</text>
+      <text x="48" y="44" class="chip-desc">Data Cleaning &#8226; Pipelines</text>
+      <rect x="175" y="20" width="62" height="18" rx="9" fill="#3b0764"/>
+      <text x="206" y="32" class="badge-label" fill="#e9d5ff" font-size="9" text-anchor="middle">ACTIVE</text>
+    </g>
+  </g>
+
+  <!-- ==================== CARD 3: WEB DEVELOPMENT & DATA ==================== -->
+  <g transform="translate(30, 270)">
+    <!-- Box Base -->
+    <rect width="555" height="225" rx="14" fill="url(#card-grad)"/>
+    <rect width="555" height="225" rx="14" fill="url(#card-grid)"/>
+    <rect width="555" height="225" rx="14" fill="none" stroke="#831843" stroke-width="1.2" stroke-opacity="0.6"/>
+
+    <!-- Header Section -->
+    <circle cx="28" cy="30" r="12" fill="#3b0918" stroke="#fb7185" stroke-width="1"/>
+    <text x="28" y="34" class="chip-icon" text-anchor="middle">Wb</text>
+    <text x="50" y="35" class="card-title">WEB DEVELOPMENT &amp; ARCHITECTURE</text>
+
+    <!-- Badge: Applied -->
+    <rect x="380" y="19" width="150" height="22" rx="11" fill="url(#pill-confident)"/>
+    <circle cx="392" cy="30" r="3" fill="#ffffff"/>
+    <text x="402" y="34" class="badge-label" fill="#ffffff">PROJECT APPLIED</text>
+
+    <!-- Skills List Grid -->
+    <!-- HTML5 & CSS3 -->
+    <g transform="translate(20, 64)">
+      <rect width="248" height="64" rx="10" fill="#1b0610" stroke="#5c0c26" stroke-width="1"/>
+      <circle cx="24" cy="32" r="14" fill="#310a19"/>
+      <text x="24" y="36" class="chip-icon" text-anchor="middle">H5</text>
+      <text x="48" y="27" class="chip-name">HTML5 &amp; CSS3</text>
+      <text x="48" y="44" class="chip-desc">Responsive &#8226; Semantic UI</text>
+      <rect x="180" y="20" width="56" height="18" rx="9" fill="#3e0a1d"/>
+      <text x="208" y="32" class="badge-label" fill="#fda4af" font-size="9" text-anchor="middle">CORE</text>
+    </g>
+
+    <!-- React -->
+    <g transform="translate(286, 64)">
+      <rect width="248" height="64" rx="10" fill="#1b0610" stroke="#5c0c26" stroke-width="1"/>
+      <circle cx="24" cy="32" r="14" fill="#310a19"/>
+      <text x="24" y="36" class="chip-icon" text-anchor="middle">Re</text>
+      <text x="48" y="27" class="chip-name">React &amp; Tailwind</text>
+      <text x="48" y="44" class="chip-desc">Frontend UI &#8226; Components</text>
+      <rect x="180" y="20" width="56" height="18" rx="9" fill="#3e0a1d"/>
+      <text x="208" y="32" class="badge-label" fill="#fda4af" font-size="9" text-anchor="middle">APPLIED</text>
+    </g>
+
+    <!-- MySQL & JDBC -->
+    <g transform="translate(20, 142)">
+      <rect width="248" height="64" rx="10" fill="#1b0610" stroke="#5c0c26" stroke-width="1"/>
+      <circle cx="24" cy="32" r="14" fill="#310a19"/>
+      <text x="24" y="36" class="chip-icon" text-anchor="middle">Db</text>
+      <text x="48" y="27" class="chip-name">MySQL &amp; JDBC</text>
+      <text x="48" y="44" class="chip-desc">Relational Persistence</text>
+      <rect x="180" y="20" width="56" height="18" rx="9" fill="#3e0a1d"/>
+      <text x="208" y="32" class="badge-label" fill="#fda4af" font-size="9" text-anchor="middle">BACKEND</text>
+    </g>
+
+    <!-- Offline-First & Sync -->
+    <g transform="translate(286, 142)">
+      <rect width="248" height="64" rx="10" fill="#1b0610" stroke="#5c0c26" stroke-width="1"/>
+      <circle cx="24" cy="32" r="14" fill="#310a19"/>
+      <text x="24" y="36" class="chip-icon" text-anchor="middle">Of</text>
+      <text x="48" y="27" class="chip-name">Offline-First Tech</text>
+      <text x="48" y="44" class="chip-desc">IndexedDB &#8226; Auto-Sync</text>
+      <rect x="180" y="20" width="56" height="18" rx="9" fill="#3e0a1d"/>
+      <text x="208" y="32" class="badge-label" fill="#fda4af" font-size="9" text-anchor="middle">SEHASETU</text>
+    </g>
+  </g>
+
+  <!-- ==================== CARD 4: DEVELOPER TOOLS & WORKFLOW ==================== -->
+  <g transform="translate(615, 270)">
+    <!-- Box Base -->
+    <rect width="555" height="225" rx="14" fill="url(#card-grad)"/>
+    <rect width="555" height="225" rx="14" fill="url(#card-grid)"/>
+    <rect width="555" height="225" rx="14" fill="none" stroke="#831843" stroke-width="1.2" stroke-opacity="0.6"/>
+
+    <!-- Header Section -->
+    <circle cx="28" cy="30" r="12" fill="#3b0918" stroke="#fb7185" stroke-width="1"/>
+    <text x="28" y="34" class="chip-icon" text-anchor="middle">Tl</text>
+    <text x="50" y="35" class="card-title">TOOLS, PLATFORMS &amp; WORKFLOW</text>
+
+    <!-- Badge: Workflow -->
+    <rect x="380" y="19" width="150" height="22" rx="11" fill="url(#pill-confident)"/>
+    <circle cx="392" cy="30" r="3" fill="#ffffff"/>
+    <text x="402" y="34" class="badge-label" fill="#ffffff">DAILY WORKFLOW</text>
+
+    <!-- Skills List Grid -->
+    <!-- Git & GitHub -->
+    <g transform="translate(20, 64)">
+      <rect width="248" height="64" rx="10" fill="#1b0610" stroke="#5c0c26" stroke-width="1"/>
+      <circle cx="24" cy="32" r="14" fill="#310a19"/>
+      <text x="24" y="36" class="chip-icon" text-anchor="middle">Gt</text>
+      <text x="48" y="27" class="chip-name">Git &amp; GitHub</text>
+      <text x="48" y="44" class="chip-desc">Version Control &#8226; Actions</text>
+      <rect x="180" y="20" width="56" height="18" rx="9" fill="#3e0a1d"/>
+      <text x="208" y="32" class="badge-label" fill="#fda4af" font-size="9" text-anchor="middle">DAILY</text>
+    </g>
+
+    <!-- VS Code -->
+    <g transform="translate(286, 64)">
+      <rect width="248" height="64" rx="10" fill="#1b0610" stroke="#5c0c26" stroke-width="1"/>
+      <circle cx="24" cy="32" r="14" fill="#310a19"/>
+      <text x="24" y="36" class="chip-icon" text-anchor="middle">Vs</text>
+      <text x="48" y="27" class="chip-name">VS Code</text>
+      <text x="48" y="44" class="chip-desc">Primary Coding &amp; Debugging</text>
+      <rect x="180" y="20" width="56" height="18" rx="9" fill="#3e0a1d"/>
+      <text x="208" y="32" class="badge-label" fill="#fda4af" font-size="9" text-anchor="middle">PRIMARY</text>
+    </g>
+
+    <!-- Replit -->
+    <g transform="translate(20, 142)">
+      <rect width="248" height="64" rx="10" fill="#1b0610" stroke="#5c0c26" stroke-width="1"/>
+      <circle cx="24" cy="32" r="14" fill="#310a19"/>
+      <text x="24" y="36" class="chip-icon" text-anchor="middle">Rp</text>
+      <text x="48" y="27" class="chip-name">Replit</text>
+      <text x="48" y="44" class="chip-desc">Cloud Prototyping &#8226; Collab</text>
+      <rect x="180" y="20" width="56" height="18" rx="9" fill="#3e0a1d"/>
+      <text x="208" y="32" class="badge-label" fill="#fda4af" font-size="9" text-anchor="middle">ACTIVE</text>
+    </g>
+
+    <!-- Antigravity -->
+    <g transform="translate(286, 142)">
+      <rect width="248" height="64" rx="10" fill="#1b0610" stroke="#5c0c26" stroke-width="1"/>
+      <circle cx="24" cy="32" r="14" fill="#310a19"/>
+      <text x="24" y="36" class="chip-icon" text-anchor="middle">Ag</text>
+      <text x="48" y="27" class="chip-name">Antigravity</text>
+      <text x="48" y="44" class="chip-desc">Advanced Agentic AI IDE</text>
+      <rect x="180" y="20" width="56" height="18" rx="9" fill="#3e0a1d"/>
+      <text x="208" y="32" class="badge-label" fill="#fda4af" font-size="9" text-anchor="middle">EXP</text>
+    </g>
+  </g>
+</svg>
